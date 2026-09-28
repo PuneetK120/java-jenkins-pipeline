@@ -4,6 +4,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'mvn clean compile'
+                sh 'sleep 5'
             }
         }
 
