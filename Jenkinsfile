@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'j_env'}
     stages {
         stage('Build') {
             steps {
